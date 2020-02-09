@@ -12,6 +12,7 @@ import { DOCUMENT } from "@angular/common";
   selector: "app-root",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"]
+
 })
 export class AppComponent implements OnInit {
   constructor(
@@ -25,13 +26,13 @@ export class AppComponent implements OnInit {
       var element = document.getElementById("navbar-top");
       if (element) {
         element.classList.remove("navbar-transparent");
-        element.classList.add("bg-danger");
+        element.classList.add("bg-jorge");
       }
     } else {
       var element = document.getElementById("navbar-top");
       if (element) {
         element.classList.add("navbar-transparent");
-        element.classList.remove("bg-danger");
+        element.classList.remove("bg-jorge");
       }
     }
   }

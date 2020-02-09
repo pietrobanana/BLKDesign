@@ -2,7 +2,7 @@
   padding: $navbar-padding-x;
   width: $full-width;
   z-index: 1050;
-  background: $primary;
+  background: #aabd04;
 
   .photo {
     display: inline-block;
@@ -111,6 +111,10 @@
 
   &.bg-danger {
     background-color: $danger !important;
+  }
+
+  &.bg-jorge {
+    background-color: #aabd04;
   }
 
   .navbar-brand {
