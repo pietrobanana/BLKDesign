@@ -5,3 +5,9 @@
 .bg-jorge{
     background-color: #aabd04 !important;
 }
+
+.section {
+    padding: 0px 0;
+    position: relative;
+}
+
